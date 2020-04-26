@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.outer_center{
+    width: 1519px;
+    overflow: hidden;
+    margin: 0 auto;
+ 
+       
+}
+
+.outer_center header{
+    height: 60px;
+    background-color:#fff;
+  
+    border-bottom: 1px solid #d0d0d0;
+}
+
+header .header_outer{
+    width: 1180px;
+    height: 60px;
+    margin: 0 auto;
+   
+    display: flex;
+}
+
+/* 设置头部左侧header */
+header .header_outer .header_left{
+    height: 60px;
+    width: 295px;
+    flex: 1;
+}
+header .header_outer .header_left .header_logo{
+    height: 60px;
+    float: left;
+    width: 124px;
+}
+header .header_outer .header_left .header_dingwei{
+    float: left;
+    width: 70px;
+    height: 60px;
+    line-height: 60px;
+    margin-left: 30px;
+    color: gray;
+}
+header .header_outer .header_left .header_logo img{
+    height: 47px;
+    margin-top: 5px;
+}
+
+/* 头部中 */
+
+header .header_outer .header_center ul li{
+    list-style: none;
+    width: 60px;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+   
+   text-align: center;
+   
+}
+header .header_outer .header_center ul li span{
+    height:50px;
+    display: inline-block;
+
+    /* border: 1px solid blanchedalmond; */
+}
+
+header .header_outer .header_center ul li span:hover{
+   cursor: pointer;
+   font-weight: bold;
+   border-bottom: 3px solid orange;
+  
+}
+header .header_outer .header_center{
+    height: 60px;
+    height: 60px;
+    width: 580px;
+    flex: 2;
+}
+
+header .header_outer .header_right{
+    height: 60px;
+   
+    height: 60px;
+    width: 295px;
+    flex: 1;
+    line-height: 60px;
+    position: relative;
+    left: 100px;
+}
+
+/* 头部右边 */
+header .header_outer .header_right span{
+    float: left;
+    margin-left: 50px;
+    font-size: 14px;
+}
+header .header_outer .header_right span:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+

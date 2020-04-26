@@ -1,0 +1,284 @@
+/* 中间部分 */
+.article_outer{
+    margin: 0 auto;
+    width: 1180px;
+    
+}
+
+.article_outer>div:first-child{
+    width: 1180px;
+    height: 54px;
+    /* border:1px solid red; */
+    line-height: 54px;
+    
+}
+
+.article_outer>div:first-child>span{
+     float: left;
+    height:54px;
+    line-height: 54px;
+    font-size: 12px;
+    color: #888;
+}
+
+.search{
+    width: 1180px;
+    height: 50px;
+    background: #fff8e1;
+   
+}
+
+.search ul li{
+    list-style: none;
+    float: left;
+    width: 88px;
+    height: 49.6px;
+    line-height: 49.6px;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+.search ul li:first-child{
+    background: #fdb600;
+    color: white;
+}
+
+.search_right{
+    width: 344px;
+    height: 36px;
+    /* border:1px solid skyblue; */
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.search_right input{
+    width: 266px;
+    height:32px;
+}
+
+.search_right>div{
+    width: 74px;
+    height: 36px;
+     background: #fdb600;
+    color: white;
+    font-size: 16px;
+    float: right;
+    line-height: 36px;
+    text-align: center;
+
+}
+
+/* 正文 */
+.text{
+    width: 1180px;
+    /* height: 3941.8px;
+    border:1px solid skyblue; */
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.text_left{
+    width: 300px;
+    /* height: 755.2px;
+     border:1px solid skyblue; */
+     float: left;
+}
+
+.text_left>div:first-child{
+    font-size: 29px;
+    border-bottom: 8px solid #1a242c;
+    padding-bottom: 18px;
+    font-weight: bold;
+}
+.text_left>div:nth-child(2){
+    padding: 0 25px 50px 25px;
+    background: #f8f8f8;
+}
+
+.text_left>div:nth-child(2) dt{
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 22px 0 12px 0;
+    font-weight: bold;
+}
+
+.text_left>div:nth-child(2) dl{
+    padding-bottom: 22px;
+    border-bottom: 1px solid #eee;
+}
+.text_left>div:nth-child(2) dl:last-child{
+      padding-bottom: 22px;
+    border-bottom: none;
+}
+
+.text_left>div:nth-child(2) dd{
+    line-height: 27px;
+    overflow: hidden;
+}
+
+.text_left>div:nth-child(2) dd>div{
+    display: block;
+    float: left;
+    width: 83px;
+    color: #656565;
+    font-size: 14px;
+}
+
+/* 
+右边 */
+.text_right{
+    width: 846px;
+    /* height: 3941.8px; */
+    /* border:1px solid salmon; */
+    float: right;
+}
+
+.text_right ul{
+    /* height: 3828.8px; */
+     width: 846px;
+      /* border:1px solid salmon; */
+}
+
+.text_right ul li{
+    list-style: none;
+    width: 846px;
+   
+     /* border:1px solid salmon; */
+     overflow: hidden;
+    padding: 25px 0;
+}
+
+.img{
+    float: left;
+    padding-right: 28px;
+}
+
+.img_right{
+    width: 566px;
+    float: right;
+    margin-top: -2px;
+}
+
+.img_right>p:first-child strong{
+    font-size: 22px;
+    color: #333;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.img_right>p:nth-child(2){
+    color: #656565;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: justify;
+    padding-top: 5px;
+}
+
+.img_right>p:nth-child(3) em{
+    color: #44658f;
+    font-size: 12px;
+    background: #e7effa;
+    margin-right: 10px;
+    padding: 3px 14px;
+    font-style: normal;
+}
+
+.img_right>p:nth-child(4){
+    color: #888;
+    font-size: 12px;
+    margin-top: 14px;
+}
+
+
+
+
+/* 脚步上方 */
+section .section_outer{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+section{
+    background: #f7f7f7;
+    padding:20px 0 40px 0;
+}
+
+.section_top{
+    height: 43px;
+    /* border:1px solid rebeccapurple; */
+    padding-left: 10px;
+    border-bottom:1px solid #eaeaea;
+    line-height: 43px;
+}
+
+.section_top div{
+    float: left;
+    margin-right: 56px;
+    font-size: 14px;
+    font-weight: bold;
+    height: 95%;
+}
+
+.section_top div:hover{
+    cursor: pointer;
+    color: #fcb100;
+    border-bottom: 3px solid #fcb100;
+}
+
+.section_bottom{
+
+}
+.section_bottom span{
+    margin-right: 15px;
+    line-height: 42px;
+    font-size: 14px;
+}
+
+.section_bottom span:hover{
+    color: #007ef3;
+    cursor: pointer;
+}
+
+
+/* 右下选择框 */
+.box{
+    overflow: hidden;
+    height: 32px;
+    margin-top: 43px;
+    margin-bottom: 45px;
+}
+
+.box>div{
+    float: right;
+    line-height: 32px;
+}
+
+.box>div>div{
+    display: block;
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    width: 36px;
+    text-align: center;
+    margin-left: 4px;
+    border: 1px solid #dcdcdc;
+    color: #323942;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.box>div>div:first-child{
+    width: 70px;
+}
+
+.box>div>div:last-child{
+    background: #fbb100;
+    color: #fff;
+    border: 1px solid #fbb100;
+}

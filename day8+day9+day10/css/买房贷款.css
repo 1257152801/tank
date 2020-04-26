@@ -1,0 +1,168 @@
+.article_outer{
+    margin: 0 auto;
+    width: 1180px;
+    
+}
+
+.article_outer>div:first-child{
+    width: 1180px;
+    height: 54px;
+    /* border:1px solid red; */
+    line-height: 54px;
+    
+}
+
+.article_outer>div:first-child>span{
+     float: left;
+    height:54px;
+    line-height: 54px;
+    font-size: 12px;
+    color: #888;
+     /* border:1px solid rebeccapurple; */
+}
+
+/* 表格 */
+.cal
+{
+    width: 1180px;
+   
+}
+
+.cal_header{
+    width: 1180px;
+    height: 63px;
+    border-bottom:1px solid #eaeaea;
+    margin-top: 30px;
+}
+
+.cal_header>div{
+    float: left;
+    margin-right: 55px;
+    height:60px;
+    line-height: 58px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fbb100;
+    font-weight: bold;
+    border-bottom: 4px solid #fdb800;
+}
+
+.cal_center{
+    width: 1180px;
+    height: 870px;
+     /* border:1px solid rebeccapurple; */
+}
+
+.cal_center>div{
+    margin-top: 48px;
+    margin-bottom: 24px;
+    position: relative;
+    
+}
+
+.cal_text p{
+    width: 117px;
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    color: #8e99a9;
+}
+
+.cal_center>div:nth-child(1)>div>div,.cal_center>div:nth-child(2)>div>div,.cal_center>div:nth-child(3)>div>div,.cal_center>div:nth-child(7)>div>div{
+    font-size: 14px;
+    color: #333;
+    width: 300px;
+    line-height: 45px;
+    position: relative;
+    display: block;
+    margin-left: 117px;
+    background: url(../images/det-icon.png) no-repeat 300px 17px #f7f7f7;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+ .cal_center>div:nth-child(4)>div>div,.cal_center>div:nth-child(5)>div>div,.cal_center>div:nth-child(6)>div>div,.cal_center>div:nth-child(8)>div>div{
+    width: 320px;
+    border: 1px solid #e6e6e6;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #8e99a9;
+     overflow: hidden; 
+   
+} 
+
+.cal_center>div:nth-child(4)>div>div>input,.cal_center>div:nth-child(5)>div>div>input,.cal_center>div:nth-child(6)>div>div>input,.cal_center>div:nth-child(8)>div>div>input{
+    border: none;
+    height: 45px;
+    line-height: 45px;
+    color: #333;
+    font-size: 14px;
+    width: 265px;
+    border-radius: 5px;
+    padding-left: 10px;
+   
+   
+}
+
+.cal_center>div:nth-child(4)>div>a,.cal_center>div:nth-child(6)>div>a{
+    background: url(../images/ts-icon.png) no-repeat;
+    width: 18px;
+    height: 19px;
+    display: inline-block;
+     position: absolute;
+    left: 470px;
+    top: 12px; 
+    cursor: pointer;
+}
+
+.bp{
+    float: right;
+    position: relative;
+    bottom:33px;
+}
+
+.bp2{
+      float: right;
+    position: relative;
+   top: 13px;
+   right: 20px;
+}
+
+
+/* 计算按钮 */
+.cal_footer{
+    overflow: hidden;
+    margin-left: 18px;
+    margin-bottom: 100px;
+}
+
+.cal_footer div:first-child{
+    width: 137px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    font-size: 14px;
+   color: #ffb62e;
+    display: inline-block;
+    float: left;
+    border-radius: 5px;
+    border: 1px solid #ffb62e;
+    margin-right: 20px;
+}
+
+.cal_footer div:last-child{
+    width: 137px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background: #ffb62e;
+    display: inline-block;
+    float: left;
+    border-radius: 5px;
+    border: 1px solid #ffb62e;
+}
